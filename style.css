@@ -1,0 +1,429 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #3ea506;
+}
+header {
+      width: 100%;
+      height: 100vh;
+      background: url("candies/logo.jpeg") no-repeat 50% 50%;
+      opacity: 0.8;
+      z-index: 100px;
+      background-size: cover;
+      background-position: center;
+}
+.logo {
+      line-height: 40px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 40px;
+}
+
+nav ul {
+      line-height: 40px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: black;
+      line-height: 40px;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+.front-heading {
+  border: 1px solid #000;
+  position: absolute;
+  right: auto;
+  down:auto;
+}
+/**********************************************************************************************************************
+ABOUT US SECTION
+**********************************************************************************************************************/
+
+.home-content-box{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.home-content-box h3 {
+  font-weight: 800;
+  color: #fff;
+  font-size: 60px;
+}
+.home-content-box p{
+  font-weight: normal;
+  font-size: 24px;
+  color: #fff;
+}
+.home-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.about-video {
+  display: inline-block;
+  float: left;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding: 20px;
+  margin-top: 50px;
+
+}
+
+.about-content h2 {
+  font-weight: bold;
+  font-size: 50px;
+    color: black;
+}
+.about-content p {
+  color: #000;
+  font-size: 16px;
+}
+.cols {
+  background-color: #28560e;
+}
+#about-us {
+  height: 70%;
+}
+.aboutus-container {
+  padding: 40px 0px;
+}
+/***********************************************************************************************************************
+**************************************************************************************************************************/
+.content-box{
+    height: 600px;
+}
+.pull-left{
+    margin-left: 80px;
+    margin-right: 40px;
+}
+.pull-right{
+    margin-right: 80px;
+
+}
+.pull-middle{
+    margin-left: 95px;
+
+}
+.content-title{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.content-title-underline{
+    width: 30px;
+    height: 3px;
+    background: #000;
+    margin: 0 auto 30px;
+}
+.content-title .text-heading{
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+#services {
+    background: url("candies/black%20and%20white.jpg") no-repeat 50% 50%;
+    width: 100%;
+    z-index: 20px;
+    background-size: cover;
+
+
+}
+#services .col-md-4{
+    background-color :white;
+    display: block;
+    width: 250px;
+    padding: 0;
+    z-index: 1;
+}
+.service-item-image img{
+    height: 225px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+
+}
+.service-item-desc{
+    color: #858585;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.text-heading{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    color: black;
+}
+#label{
+    color: white;
+}
+
+
+/***********************************************************************************************************************
+**************************************************************************************************************************/
+
+
+
+#benifits{
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+#benifits .container{
+    width: 400px;
+    /*margin: 40px auto 0;*/
+    padding: 50px;
+    box-sizing: border-box;
+    /*background: url('./img/paper-pattern.jpg') top left repeat;*/
+    box-shadow: 0 10px 15px 8px #000;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#benifits h1{
+    margin: 0 0 25px;
+    padding: 0 0 25px;
+    border-bottom: solid 1px #ddd;
+}
+form{
+    text-align: left;
+}
+label{
+    display: block;
+    margin: 0 0 25px;
+    font-weight: bold;
+}
+input,select{
+    padding: 8px;
+    margin: 10px 0;
+}
+input[type="text"]{
+    width: 90px;
+}
+button{
+    background: #28560e;
+    color: white;
+    border: none;
+    border-bottom: solid 4px #222;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100%;
+}
+button:hover{
+    background: #4c2827;
+    border-color: #111;
+    cursor: pointer;
+}
+button:active{
+    position: relative;
+    top: 1px;
+}
+#totalTip{
+    font-size: 50px;
+    margin-top: 40px;
+}
+#totalTip:before{
+    content: "Total Candy Cost";
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+sup{
+    font-size: 24px;
+    top: -18px;
+}
+small{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+
+.row {
+  margin-right: 10px;
+}
+.pb-100 {
+	padding-bottom: 100px;
+}
+.pt-100 {
+	padding-top: 100px;
+}
+.mb-100 {
+	margin-bottom: 100px;
+}
+a {
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.section-title {
+	position: relative;
+}
+.section-title p {
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+.section-title h4 {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: capitalize;
+	position: relative;
+	padding-bottom: 20px;
+	display: inline-block;
+  color: #fff;
+}
+.section-title h4::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 2px;
+	background-color: #28560e;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+}
+.section-title h4::after {
+	position: absolute;
+	content: "";
+	width: 50px;
+	height: 2px;
+	background-color: #fff;
+	left: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -25px;
+}
+.contact {
+	background: url("./Images/contact-us.jpg") no-repeat 50% 50%;;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 2;
+	color: #fff;
+}
+.contact-form input,
+textarea {
+	width: 100%;
+	border: 1px solid #fff;
+	padding: 5px 10px;
+	text-transform: capitalize;
+	margin-top: 15px;
+	background-color: transparent;
+	color: #fff;
+  resize: none;
+}
+.contact:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #333;
+	z-index: -1;
+	opacity: .85;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+}
+.single-contact {
+	text-align: left;
+	position: relative;
+	padding-left: 70px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+.single-contact i.fa {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	background-color: black;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+}
+.single-contact h5 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+.single-contact p {
+	font-size: 15px;
+	font-weight: 400;
+}
+.contact-form input[type="submit"] {
+	background-color: black;
+	border: 0px;
+	cursor: pointer;
+	font-size: 16px;
+	-webkit-transition: .4s;
+	transition: .4s
+}
+.contact-form input[type="submit"]:hover {
+	background-color: blue;
+}
+.contact-form input:focus, textarea:focus {
+	border-color: blue;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.footer p {
+padding-top: 10px;
+    color: #fff;
+}
