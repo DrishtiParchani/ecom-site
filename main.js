@@ -6,6 +6,7 @@ $(document).ready(function() {
 
      // Scrolling Effect
      console.log("Hello!");
+     console.log("Parth Branch!");
      $(window).on("scroll", function() {
            if($(window).scrollTop()) {
                  $('nav').addClass('black');
