@@ -5,7 +5,7 @@ $(document).ready(function() {
      });
 
      // Scrolling Effect
-
+     console.log("Hello!");
      $(window).on("scroll", function() {
            if($(window).scrollTop()) {
                  $('nav').addClass('black');
